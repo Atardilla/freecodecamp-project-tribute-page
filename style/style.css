@@ -1,0 +1,94 @@
+body{
+    background: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif
+}
+
+header{
+    background: #eeeeee;
+    height: 160px;
+    width: 100%;
+}
+
+.header-content{
+    margin: auto;
+    width: 375px;
+    margin-top: 50px;
+}
+
+.header-content p{
+    margin: auto;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#title{
+    font-weight: 700;
+    font-size: 38px;
+    color: #333333;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#img-div{
+    background: #ffffff;
+    width: 1020px;
+    padding: 0 40px 0 40px;
+}
+#img-caption{
+    text-align: center;
+    margin: 15px 0px 15px 0px;
+}
+
+#tribute-info{
+        background: #eeeeee;
+        width: 100%;
+}
+
+#box-info{
+    margin: auto;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 50px;
+    text-align: center;
+}
+
+ul{
+    list-style-type: disc;
+}
+
+li{
+    margin-bottom: 30px;
+}
+
+strong{
+    font-weight: bold;
+}
+
+#citation, #citation-author{
+    font-style: italic;
+    text-align: start;
+    margin-bottom: 15px;
+    line-height: 25px;
+}
+
+#wiki-invitation{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 50px;
+    text-align: center;
+}
